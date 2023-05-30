@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Lei/XLG-BundleInfos'
+  s.homepage         = 'https://github.com/Smart-XiaoLeiGe/XLG-BundleInfos'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Lei' => 'wanglei_sh163@163.com' }
-  s.source           = { :git => 'https://github.com/Lei/XLG-BundleInfos.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:Smart-XiaoLeiGe/XLG-BundleInfos.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'XLG-BundleInfos/Classes/**/*'
+  s.swift_versions = '5.0'
   
   # s.resource_bundles = {
   #   'XLG-BundleInfos' => ['XLG-BundleInfos/Assets/*.png']

@@ -1,0 +1,6 @@
+framework module Pods_XLG_BundleInfos_Tests {
+  umbrella header "Pods-XLG-BundleInfos_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -2,7 +2,7 @@
 
 import Quick
 import Nimble
-import XLG-BundleInfos
+import XLG_BundleInfos
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {
