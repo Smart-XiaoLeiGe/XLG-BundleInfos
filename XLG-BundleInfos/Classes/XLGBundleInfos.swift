@@ -1,16 +1,16 @@
 import Foundation
 
 protocol InfoDictionaryParseable {
-    var value: Any {get}
+    var value: String {get}
 }
 
 extension CFString : InfoDictionaryParseable {
-    public var value: Any {
+    public var value: String {
         return Bundle.main.infoDictionary?[self as String] as! String
     }
 }
 extension String: InfoDictionaryParseable {
-    public var value: Any {
+    public var value: String {
         return Bundle.main.infoDictionary?[self] as! String
     }
 }
